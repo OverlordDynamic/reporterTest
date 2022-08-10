@@ -1,0 +1,29 @@
+{
+  "name": "reportertest",
+  "version": "0.0.1",
+  "description": "basic jest test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromaticWaster/reporterTest.git"
+  },
+  "author": "Clement Freeman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chromaticWaster/reporterTest/issues"
+  },
+  "homepage": "https://github.com/chromaticWaster/reporterTest#readme",
+  "dependencies": {
+    "lit": "^2.2.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "jest": "^27.0.0",
+    "jest-github-actions-reporter": "^1.0.3",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.7.4"
+  }
+}
