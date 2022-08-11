@@ -2,7 +2,7 @@ name: pull-request-tests
 on:
   pull_request:
     branches:
-      - # add branch name here
+      - develop
 jobs:
   pr-run-storybook-tests:
     timeout-minutes: 5 
